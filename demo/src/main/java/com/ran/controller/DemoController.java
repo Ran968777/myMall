@@ -16,6 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 品牌管理示例controller
@@ -96,4 +97,6 @@ public class DemoController {
     public CommonResult<PmsBrand> brand(@PathVariable("id") Long id) {
         return CommonResult.success(demoService.getBrand(id));
     }
+
+
 }
