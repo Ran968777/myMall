@@ -19,3 +19,15 @@
 用户类需要继承UserDetail
 
 用户service需要UserDetailService或者在自定义的UserService中调用SpringSecurity的UserDetailService的方法。
+
+mall项目是自定义了登录的流程
+
+vhr项目是给SpringSecurity自定义了LoginFilter（继承自）// todo
+
+
+
+# 2020.9.28
+
+#### 用户管理
+
+- 登录时会保存下登录日志,记录下登录时间和IP

@@ -12,6 +12,8 @@
         <module>common</module>
         <module>demo</module>
         <module>mbg</module>
+        <module>admin</module>
+        <module>security</module>
     </modules>
 
     <parent>
